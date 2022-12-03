@@ -1,6 +1,6 @@
 sum = 0
 
-lines = File.open("03/input.txt").readlines.map(&:strip)
+lines = File.open("input.txt").readlines.map(&:strip)
 
 lines.each_slice(3) do |list|
   a, b, c = list.map{|x| x.split('')}
