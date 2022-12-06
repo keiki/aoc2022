@@ -1,4 +1,4 @@
-chars = File.open("06/input.txt").read.strip.split('')
+chars = File.open("input.txt").read.strip.split('')
 
 found = false
 starter = 2
